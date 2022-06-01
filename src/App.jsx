@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from './components/Form';
 import { Controls, Counter } from './Counter';
 
 const App = () => {
@@ -7,6 +8,10 @@ const App = () => {
     <div>
       <Counter />
       <Controls />
+      <br />
+      <br />
+      <Form />
+
     </div>
   );
 };
